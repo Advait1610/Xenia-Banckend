@@ -1,0 +1,19 @@
+{
+  "name": "login-signup",
+  "version": "1.0.0",
+  "description": "login signup implementation",
+  "main": "index.js",
+  "scripts": {
+    "start" : "nodemon index.js"
+  },
+  "keywords": [
+    "authetication"
+  ],
+  "author": "Xenia team",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.2"
+  }
+}
