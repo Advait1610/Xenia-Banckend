@@ -7,13 +7,9 @@ const port = 4000;
 const db=require('./config/mongoose')
 
 
-
+app.use(express.urlencoded({extended: true}));
 
 app.use('/', require('./routes/routeindex.js'));
-
-
-
-
 
 app.listen(port,function(err){
     if(err) {
